@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE4DDD0B27CD950D00D47D8A /* AcceptPaymentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DDD0A27CD950D00D47D8A /* AcceptPaymentApp.swift */; };
+		FE4DDD0D27CD950D00D47D8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DDD0C27CD950D00D47D8A /* ContentView.swift */; };
+		FE4DDD0F27CD950E00D47D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE4DDD0E27CD950E00D47D8A /* Assets.xcassets */; };
+		FE4DDD1227CD950E00D47D8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE4DDD1127CD950E00D47D8A /* Preview Assets.xcassets */; };
+		FE4DDD1C27CD950E00D47D8A /* AcceptPaymentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DDD1B27CD950E00D47D8A /* AcceptPaymentTests.swift */; };
+		FE4DDD2627CD950E00D47D8A /* AcceptPaymentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DDD2527CD950E00D47D8A /* AcceptPaymentUITests.swift */; };
+		FE4DDD2827CD950E00D47D8A /* AcceptPaymentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DDD2727CD950E00D47D8A /* AcceptPaymentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE4DDD1827CD950E00D47D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE4DDCFF27CD950D00D47D8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE4DDD0627CD950D00D47D8A;
+			remoteInfo = AcceptPayment;
+		};
+		FE4DDD2227CD950E00D47D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE4DDCFF27CD950D00D47D8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE4DDD0627CD950D00D47D8A;
+			remoteInfo = AcceptPayment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE4DDD0727CD950D00D47D8A /* AcceptPayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcceptPayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4DDD0A27CD950D00D47D8A /* AcceptPaymentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptPaymentApp.swift; sourceTree = "<group>"; };
+		FE4DDD0C27CD950D00D47D8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE4DDD0E27CD950E00D47D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE4DDD1127CD950E00D47D8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE4DDD1727CD950E00D47D8A /* AcceptPaymentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceptPaymentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4DDD1B27CD950E00D47D8A /* AcceptPaymentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptPaymentTests.swift; sourceTree = "<group>"; };
+		FE4DDD2127CD950E00D47D8A /* AcceptPaymentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceptPaymentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4DDD2527CD950E00D47D8A /* AcceptPaymentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptPaymentUITests.swift; sourceTree = "<group>"; };
+		FE4DDD2727CD950E00D47D8A /* AcceptPaymentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptPaymentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE4DDD0427CD950D00D47D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4DDD1427CD950E00D47D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4DDD1E27CD950E00D47D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE4DDCFE27CD950D00D47D8A = {
+			isa = PBXGroup;
+			children = (
+				FE4DDD0927CD950D00D47D8A /* AcceptPayment */,
+				FE4DDD1A27CD950E00D47D8A /* AcceptPaymentTests */,
+				FE4DDD2427CD950E00D47D8A /* AcceptPaymentUITests */,
+				FE4DDD0827CD950D00D47D8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE4DDD0827CD950D00D47D8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE4DDD0727CD950D00D47D8A /* AcceptPayment.app */,
+				FE4DDD1727CD950E00D47D8A /* AcceptPaymentTests.xctest */,
+				FE4DDD2127CD950E00D47D8A /* AcceptPaymentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE4DDD0927CD950D00D47D8A /* AcceptPayment */ = {
+			isa = PBXGroup;
+			children = (
+				FE4DDD0A27CD950D00D47D8A /* AcceptPaymentApp.swift */,
+				FE4DDD0C27CD950D00D47D8A /* ContentView.swift */,
+				FE4DDD0E27CD950E00D47D8A /* Assets.xcassets */,
+				FE4DDD1027CD950E00D47D8A /* Preview Content */,
+			);
+			path = AcceptPayment;
+			sourceTree = "<group>";
+		};
+		FE4DDD1027CD950E00D47D8A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE4DDD1127CD950E00D47D8A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE4DDD1A27CD950E00D47D8A /* AcceptPaymentTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE4DDD1B27CD950E00D47D8A /* AcceptPaymentTests.swift */,
+			);
+			path = AcceptPaymentTests;
+			sourceTree = "<group>";
+		};
+		FE4DDD2427CD950E00D47D8A /* AcceptPaymentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE4DDD2527CD950E00D47D8A /* AcceptPaymentUITests.swift */,
+				FE4DDD2727CD950E00D47D8A /* AcceptPaymentUITestsLaunchTests.swift */,
+			);
+			path = AcceptPaymentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE4DDD0627CD950D00D47D8A /* AcceptPayment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE4DDD2B27CD950E00D47D8A /* Build configuration list for PBXNativeTarget "AcceptPayment" */;
+			buildPhases = (
+				FE4DDD0327CD950D00D47D8A /* Sources */,
+				FE4DDD0427CD950D00D47D8A /* Frameworks */,
+				FE4DDD0527CD950D00D47D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcceptPayment;
+			productName = AcceptPayment;
+			productReference = FE4DDD0727CD950D00D47D8A /* AcceptPayment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE4DDD1627CD950E00D47D8A /* AcceptPaymentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE4DDD2E27CD950E00D47D8A /* Build configuration list for PBXNativeTarget "AcceptPaymentTests" */;
+			buildPhases = (
+				FE4DDD1327CD950E00D47D8A /* Sources */,
+				FE4DDD1427CD950E00D47D8A /* Frameworks */,
+				FE4DDD1527CD950E00D47D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE4DDD1927CD950E00D47D8A /* PBXTargetDependency */,
+			);
+			name = AcceptPaymentTests;
+			productName = AcceptPaymentTests;
+			productReference = FE4DDD1727CD950E00D47D8A /* AcceptPaymentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE4DDD2027CD950E00D47D8A /* AcceptPaymentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE4DDD3127CD950E00D47D8A /* Build configuration list for PBXNativeTarget "AcceptPaymentUITests" */;
+			buildPhases = (
+				FE4DDD1D27CD950E00D47D8A /* Sources */,
+				FE4DDD1E27CD950E00D47D8A /* Frameworks */,
+				FE4DDD1F27CD950E00D47D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE4DDD2327CD950E00D47D8A /* PBXTargetDependency */,
+			);
+			name = AcceptPaymentUITests;
+			productName = AcceptPaymentUITests;
+			productReference = FE4DDD2127CD950E00D47D8A /* AcceptPaymentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE4DDCFF27CD950D00D47D8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FE4DDD0627CD950D00D47D8A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					FE4DDD1627CD950E00D47D8A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FE4DDD0627CD950D00D47D8A;
+					};
+					FE4DDD2027CD950E00D47D8A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FE4DDD0627CD950D00D47D8A;
+					};
+				};
+			};
+			buildConfigurationList = FE4DDD0227CD950D00D47D8A /* Build configuration list for PBXProject "AcceptPayment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE4DDCFE27CD950D00D47D8A;
+			productRefGroup = FE4DDD0827CD950D00D47D8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE4DDD0627CD950D00D47D8A /* AcceptPayment */,
+				FE4DDD1627CD950E00D47D8A /* AcceptPaymentTests */,
+				FE4DDD2027CD950E00D47D8A /* AcceptPaymentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE4DDD0527CD950D00D47D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4DDD1227CD950E00D47D8A /* Preview Assets.xcassets in Resources */,
+				FE4DDD0F27CD950E00D47D8A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4DDD1527CD950E00D47D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4DDD1F27CD950E00D47D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE4DDD0327CD950D00D47D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4DDD0D27CD950D00D47D8A /* ContentView.swift in Sources */,
+				FE4DDD0B27CD950D00D47D8A /* AcceptPaymentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4DDD1327CD950E00D47D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4DDD1C27CD950E00D47D8A /* AcceptPaymentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4DDD1D27CD950E00D47D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4DDD2627CD950E00D47D8A /* AcceptPaymentUITests.swift in Sources */,
+				FE4DDD2827CD950E00D47D8A /* AcceptPaymentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE4DDD1927CD950E00D47D8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE4DDD0627CD950D00D47D8A /* AcceptPayment */;
+			targetProxy = FE4DDD1827CD950E00D47D8A /* PBXContainerItemProxy */;
+		};
+		FE4DDD2327CD950E00D47D8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE4DDD0627CD950D00D47D8A /* AcceptPayment */;
+			targetProxy = FE4DDD2227CD950E00D47D8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE4DDD2927CD950E00D47D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE4DDD2A27CD950E00D47D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE4DDD2C27CD950E00D47D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AcceptPayment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.affirmi.AcceptPayment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE4DDD2D27CD950E00D47D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AcceptPayment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.affirmi.AcceptPayment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE4DDD2F27CD950E00D47D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.affirmi.AcceptPaymentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcceptPayment.app/AcceptPayment";
+			};
+			name = Debug;
+		};
+		FE4DDD3027CD950E00D47D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.affirmi.AcceptPaymentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcceptPayment.app/AcceptPayment";
+			};
+			name = Release;
+		};
+		FE4DDD3227CD950E00D47D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.affirmi.AcceptPaymentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AcceptPayment;
+			};
+			name = Debug;
+		};
+		FE4DDD3327CD950E00D47D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.affirmi.AcceptPaymentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AcceptPayment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE4DDD0227CD950D00D47D8A /* Build configuration list for PBXProject "AcceptPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4DDD2927CD950E00D47D8A /* Debug */,
+				FE4DDD2A27CD950E00D47D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE4DDD2B27CD950E00D47D8A /* Build configuration list for PBXNativeTarget "AcceptPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4DDD2C27CD950E00D47D8A /* Debug */,
+				FE4DDD2D27CD950E00D47D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE4DDD2E27CD950E00D47D8A /* Build configuration list for PBXNativeTarget "AcceptPaymentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4DDD2F27CD950E00D47D8A /* Debug */,
+				FE4DDD3027CD950E00D47D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE4DDD3127CD950E00D47D8A /* Build configuration list for PBXNativeTarget "AcceptPaymentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4DDD3227CD950E00D47D8A /* Debug */,
+				FE4DDD3327CD950E00D47D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE4DDCFF27CD950D00D47D8A /* Project object */;
+}
